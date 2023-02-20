@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Android-POS.iml" filepath="$PROJECT_DIR$/Android-POS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/p25Demo/p25Demo.iml" filepath="$PROJECT_DIR$/p25Demo/p25Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android-POS.iml" filepath="$PROJECT_DIR$/.idea/modules/Android-POS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-POS.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-POS.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-POS.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-POS.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-POS.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-POS.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-POS.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-POS.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/p25Demo/Android-POS.p25Demo.iml" filepath="$PROJECT_DIR$/.idea/modules/p25Demo/Android-POS.p25Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/p25Demo/Android-POS.p25Demo.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/p25Demo/Android-POS.p25Demo.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/p25Demo/Android-POS.p25Demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/p25Demo/Android-POS.p25Demo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/p25Demo/Android-POS.p25Demo.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/p25Demo/Android-POS.p25Demo.unitTest.iml" />
     </modules>
   </component>
 </project>

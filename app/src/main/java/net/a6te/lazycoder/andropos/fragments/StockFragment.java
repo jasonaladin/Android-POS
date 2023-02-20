@@ -58,11 +58,7 @@ public class StockFragment extends Fragment {
         view = stockBinding.getRoot();
         stockModel = new StockModel();
         updateDatabase = new UpdateDatabase(getActivity());
-
         stock = new Stock(getActivity());
-
-
-
         return view;
     }
 

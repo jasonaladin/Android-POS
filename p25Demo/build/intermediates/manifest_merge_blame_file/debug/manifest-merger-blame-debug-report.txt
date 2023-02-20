@@ -2,24 +2,21 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="net.londatiga.android.bluebamboo" >
 4
-5    <uses-sdk
-6        android:minSdkVersion="16"
-6-->H:\Programming\Android-POS\p25Demo\src\main\AndroidManifest.xml
-7        android:targetSdkVersion="26" />
-7-->H:\Programming\Android-POS\p25Demo\src\main\AndroidManifest.xml
-8
-9    <uses-feature
-9-->H:\Programming\Android-POS\p25Demo\src\main\AndroidManifest.xml:5:5-88
-10        android:name="android.hardware.bluetooth"
-10-->H:\Programming\Android-POS\p25Demo\src\main\AndroidManifest.xml:5:19-60
-11        android:required="false" />
-11-->H:\Programming\Android-POS\p25Demo\src\main\AndroidManifest.xml:5:61-85
-12
-13    <uses-permission android:name="android.permission.BLUETOOTH" />
-13-->H:\Programming\Android-POS\p25Demo\src\main\AndroidManifest.xml:6:5-68
-13-->H:\Programming\Android-POS\p25Demo\src\main\AndroidManifest.xml:6:22-65
-14    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-14-->H:\Programming\Android-POS\p25Demo\src\main\AndroidManifest.xml:7:5-74
-14-->H:\Programming\Android-POS\p25Demo\src\main\AndroidManifest.xml:7:22-71
-15
-16</manifest>
+5    <uses-sdk android:minSdkVersion="16" />
+5-->C:\Users\balutisaw\AndroidStudioProjects\Android-POS\p25Demo\src\main\AndroidManifest.xml
+6
+7    <uses-feature
+7-->C:\Users\balutisaw\AndroidStudioProjects\Android-POS\p25Demo\src\main\AndroidManifest.xml:5:5-88
+8        android:name="android.hardware.bluetooth"
+8-->C:\Users\balutisaw\AndroidStudioProjects\Android-POS\p25Demo\src\main\AndroidManifest.xml:5:19-60
+9        android:required="false" />
+9-->C:\Users\balutisaw\AndroidStudioProjects\Android-POS\p25Demo\src\main\AndroidManifest.xml:5:61-85
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->C:\Users\balutisaw\AndroidStudioProjects\Android-POS\p25Demo\src\main\AndroidManifest.xml:6:5-68
+11-->C:\Users\balutisaw\AndroidStudioProjects\Android-POS\p25Demo\src\main\AndroidManifest.xml:6:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\balutisaw\AndroidStudioProjects\Android-POS\p25Demo\src\main\AndroidManifest.xml:7:5-74
+12-->C:\Users\balutisaw\AndroidStudioProjects\Android-POS\p25Demo\src\main\AndroidManifest.xml:7:22-71
+13
+14</manifest>

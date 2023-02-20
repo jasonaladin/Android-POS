@@ -22,11 +22,6 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v4.app.Fragment;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdSize;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
-
 import net.a6te.lazycoder.andropos.fragments.DueDetailsFragment;
 import net.a6te.lazycoder.andropos.fragments.DueFragment;
 import net.a6te.lazycoder.andropos.fragments.InvoiceFragment;
@@ -36,7 +31,8 @@ import net.a6te.lazycoder.andropos.fragments.StockFragment;
 import net.a6te.lazycoder.andropos.fragments.UpdatingStatusFragment;
 import net.a6te.lazycoder.andropos.interfaces.DueLvInterface;
 import net.a6te.lazycoder.andropos.interfaces.UpdatePercentage;
-import net.a6te.lazycoder.andropos.test.SampleDataInsert;
+//import net.a6te.lazycoder.andropos.test.SampleDataInsert;
+import net.a6te.lazycoder.andropos.database.DeleteAllData;
 
 /*
 
@@ -84,19 +80,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         LocalBroadcastManager.getInstance(this).registerReceiver(messageReceiver
                 ,new IntentFilter("completationMessage"));
 
-        mobileAdsInitialize();
+        //mobileAdsInitialize();
 
     }
 
-    private void mobileAdsInitialize() {
-        MobileAds.initialize(this,
-                getResources().getString(R.string.app_add_id));
-
-        mAdView = findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
-
-    }
+//    private void mobileAdsInitialize() {
+//        MobileAds.initialize(this,
+//                getResources().getString(R.string.app_add_id));
+//
+//        mAdView = findViewById(R.id.adView);
+//        AdRequest adRequest = new AdRequest.Builder().build();
+//        mAdView.loadAd(adRequest);
+//
+//    }
 
     private void initializeAll() {
         stockRl = (RelativeLayout) findViewById(R.id.navStock);
